@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(bg-intro-desktop\ \(1\).png);
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 900px;
+}
+
+.text {
+    padding-right: 50px;
+    color: white;
+}
+
+.text h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 3rem;
+    padding-top: 40px;
+}
+
+.text p {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: .8rem;
+    opacity: .8;
+}
+
+.wrapper2 {
+    height: 70%;
+    width: 1000px;
+}
+
+input {
+    height: 35px;
+    border-radius: 5px;
+    border-color: hsl(240, 16%, 77%);
+    border-width: .5px;
+    opacity: .8;
+} 
+
+form p {
+    font-size: .6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.trial {
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+    height: 42px;
+    margin-bottom: 20px;
+    font-size: .8rem;
+    color: white;
+   padding-top: 1px;
+
+}
+ .trial p {
+    font-weight: 650;
+    
+ }
+
+  .free {
+      font-weight: 300;
+      opacity: .8;
+  }
+
+  button {
+      padding: 15px;
+      font-size: .7rem;
+      font-weight: 600;
+      background-color: hsl(154, 59%, 51%);
+      border-radius: 5px;
+      border: none;
+      color: white;
+  }
+
+  .terms {
+      color: hsl(0, 100%, 74%)
+  }
+
+  .card p {
+      opacity: .8;
+  }
+
+  input::placeholder {
+      padding-left: 20px;
+      font-weight: 600;
+      font-size: .7rem;
+  }
+
+  @media (max-width: 375px) {
+      body{
+          background-image: url(bg-intro-mobile\ \(1\).png);
+      }
+      .wrapper {
+          display:flex;
+          flex-direction: column;
+      }
+
+      .text {
+           margin: auto;
+           text-align: center;
+           padding-left: 40px;
+      }  
+
+      .text h1 {
+          font-size: 1.6rem;
+          line-height: 2rem;
+      }
+
+      .text p {
+          font-size: .8rem;
+          
+      }
+
+      .wrapper2 {
+          width: 85%;
+      }
+
+      .trial {
+          padding: 20px;
+      }
+
+      .trial p {
+          font-size: .8rem;
+          width: 60%;
+          margin: auto;
+      }
+
+      
+      .card p {
+        width: 80%;
+        padding-left: 30px;
+      }
+
+  }
